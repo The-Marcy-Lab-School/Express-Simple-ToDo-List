@@ -1,5 +1,4 @@
-# Unit 7 - Problem Set #1
-### Express To-Do List
+# Express Simple To-Do List
 
 ## Directions
 You are to make a simple To-Do List using the Express framework. Your project should fullfill the following UX requirements. Users should be able to:
