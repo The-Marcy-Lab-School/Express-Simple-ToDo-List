@@ -13,7 +13,7 @@ Your code must meet the following requirements:
   * Your project files should be organized into folders according to their purpose.
   * For recurring parts of your UI (HTML), you should use EJS partials (`include`).
   * Generally, code should be clean and well-organize. (ESLint is highly encourage.)
-  * **The data does not need to persists**. If the user refreshes the app, the To-Do list will be cleared out. 
+  * **The data does not need to persists**. If you restart the server, the To-Do list will be cleared out. 
 
 ## Submission
 You will deploy this application to Heroku. You will submit this project by uploading your project's URL to Canvas, but add the URL fo your repo as a comment in your submission. The following articles will help you with the deployment process:
