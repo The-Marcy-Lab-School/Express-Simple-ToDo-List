@@ -12,6 +12,7 @@ Your code must meet the following requirements:
   * Core app logic must be encapsulated using classes.
   * Your project files should be organized into folders according to their purpose.
   * For recurring parts of your UI (HTML), you should use EJS partials (`include`).
+  * Have basic styling (feel free to reference a CSS library CDN).
   * Generally, code should be clean and well-organize. (ESLint is highly encourage.)
   * **The data does not need to persists**. If you restart the server, the To-Do list will be cleared out. 
 
