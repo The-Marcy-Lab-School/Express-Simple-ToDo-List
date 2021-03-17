@@ -19,3 +19,4 @@ Your code must meet the following requirements:
 You will deploy this application to Heroku. You will submit this project by uploading your project's URL to Canvas, but add the URL fo your repo as a comment in your submission. The following articles will help you with the deployment process:
   * [Installing the Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
   * [Build and deploy a Node Express server to Heroku in 10 steps](https://medium.com/@grantspilsbury/build-and-deploy-a-node-express-server-to-heroku-in-10-steps-70c936ab15dc)
+  * [Example Project](https://infinite-escarpment-79350.herokuapp.com/)
