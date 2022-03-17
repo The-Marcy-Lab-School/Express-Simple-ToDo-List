@@ -40,6 +40,13 @@ Your project should fullfill the following UX requirements. Using your front-end
 ### Deleting a ToDo
   * Add a `DELETE /todos/:id` route that will remove the todo from the list of todos. In your front-end, if a user clicks the button to delete a task, the UI should update to reflect that the todo has been removed from the list.
 
+### Test your app from start to finish
+  * Restart your servers
+  * When the frontend UI loads, it should make a fetch to the back-end API and render all todos onto the DOM. You should see two todos rendered on the DOM.
+  * A user should be able to create a new todo by submitting the form. This should make a fetch to  the back-end API and add the new todo to the in-memory array! Then in your front end, the new todo is rendered to the DOM.
+  * A user should be able to mark a todo as complete by clicking the button. This should make a fetch to the back-end API add update the todo's `completed` property to `true`. The front-end UI should be updated to reflect the complete todo. 
+  * A user should be able to delete a todo by clicking the button. This should make a fetch to the back-end API and remove the todo from the in-memory array. The todo should be removed from the front-end UI.
+
 ### Clean Up
   * After your code is complete, run the eslint command to check for errors. You should add this command to the scripts section of your package.json. `"eslint": "eslint . --fix"`
 
