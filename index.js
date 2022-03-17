@@ -13,6 +13,8 @@ document.querySelector("#create-todo-form").addEventListener('submit', createToD
 function renderTodo(todo) {
   // create a list item element
   const listItem = document.createElement("li");
+  // add the todo's id to the li so we can reference it later
+  listItem.id = `todo-${todo.id}`;
 
   // create a paragraph element
   const description = document.createElement("p");
