@@ -1,10 +1,9 @@
-const crypto = require("crypto");
+let id = 0
+const todos = [createTodo("my first todo!"), createTodo("my second todo!")];
 
-const todos = [createTodo("my first todo!")];
-
+// This is a helper function you should use to create new todos for you
 function createTodo(description) {
-  const id = crypto.randomBytes(16).toString("hex");
-
+  id++; // This auto increments the id like a real DB would
   return {
     id,
     description,

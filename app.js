@@ -2,7 +2,9 @@
  * This is your server file
  */
 
-// Add your require statements here
+// Add all your require statements here
+const { todos, createTodo } = require("./todos")
+console.log(todos)
 
 // Your port of choice here
 const PORT = 3000;
