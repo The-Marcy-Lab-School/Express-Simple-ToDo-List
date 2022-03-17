@@ -22,6 +22,7 @@ You are to make a simple To-Do List using the Express framework. Your project sh
     * When you make the request to you backend, you will notice that you get an error that says something like `Cannot read properties of undefined (reading 'description')`. This is because we need to add some middleware that allows express to read the body of a request. After your cors middleware, add another line `app.use(express.json());`. Your request should succeed now.
   * Add a `PATCH /todos/:id` route that will mark a task with that id as complete. In your frontend, provide either a checkbox or a button that allows the user to mark the task as complete. Once the task is marked as complete, the UI should reflect that change.
   * Add a `DELETE /todos/:id` route that will remove the todo from the list of todos. Your UI should update to reflect that the todo has been removed from the list of todos.
+  * After your code is complete, run the eslint command to check for errors. You should add this command to the scripts section of your package.json. `"eslint": "eslint . --fix"`
 
 Your code must meet the following requirements:
   * Have basic styling (feel free to reference a CSS library CDN).

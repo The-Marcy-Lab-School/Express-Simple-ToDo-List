@@ -44,7 +44,7 @@ function markComplete(event) {
   const todoId = event.target.dataset.todoId;
 
   console.log(`
-    TODO: Implement the mark complete functionality for todo ${todoId}
+    TODO: Implement the mark complete functionality for todo ${todoId} and remove this log
   `);
 }
 
@@ -52,6 +52,6 @@ function deleteTodo(event) {
   const todoId = event.target.dataset.todoId;
 
   console.log(`
-    TODO: Implement the delete functionality for todo ${todoId}
+    TODO: Implement the delete functionality for todo ${todoId} and remove this log
   `);
 }
