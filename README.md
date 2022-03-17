@@ -18,8 +18,8 @@ Your project should fullfill the following UX requirements. Using your front-end
 
 ### Set Up
   * Add dependencies. Install express, nodemon, eslint
-      - `npm install express cors`
-      - `npm install -D nodemon eslint`
+      - `npm install express cors nodemon`
+      - `npm install -D eslint`
   * In your `package.json`, add a start script that will start your back-end server with the nodemon command, `"start" : "nodemon app.js"`.
   * In your `app.js` file, `require('express')` and use it to create an express server and have it listen to an available port on your computer.
   * Run `npm start` to start your express server.
