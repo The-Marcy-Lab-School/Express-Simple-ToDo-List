@@ -1,7 +1,7 @@
 # Express Simple To-Do List
 
 ## Directions
-You are to make a simple To-Do List. You will build out an HTML/JS front-end which makes fetch calls to an Express API back-end that you build as well. This is a full [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) application. You will code your back-end in `app.js` and your front-end in `index.js`. **There is lots of starter code to help you.** However, it's up to you to understand it and use it to your advantange.  
+You are to make a simple To-Do List. You will build out an HTML/JS front-end which makes fetch calls to an Express API back-end that you build as well. This is a full CRUD application. You will code your back-end in `app.js` and your front-end in `index.js`. **There is lots of starter code to help you.** However, it's up to you to understand it and use it to your advantange.  
 
 Your project should fullfill the following UX requirements. Using your front-end, users should be able to:
   * View a list of tasks
@@ -54,3 +54,6 @@ Your project should fullfill the following UX requirements. Using your front-end
 * [Front-end](https://fervent-poitras-2114af.netlify.app/)
 * [Back-end](https://ann-express-todolist-1-backend.herokuapp.com/todos)
 
+### Additional Resources
+* [Review of the different fetch methods](https://medium.com/@9cv9official/what-are-get-post-put-patch-delete-a-walkthrough-with-javascripts-fetch-api-17be31755d28)
+* [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
