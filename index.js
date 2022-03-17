@@ -23,7 +23,7 @@ function renderTodo(todo) {
   // add the todo's id to the description so we can reference it later
   description.id = `description-${todo.id}`;
 
-  // create a Marc complete button
+  // create a Mark complete button
   const markCompleteBtn = document.createElement("button");
   markCompleteBtn.innerText = "Mark Todo as Complete";
   // add the todo's id as a data attribute so we can reference later
