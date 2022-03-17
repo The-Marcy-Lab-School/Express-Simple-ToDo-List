@@ -28,7 +28,7 @@ Your project should fullfill the following UX requirements. Using your front-end
 ### Get All ToDos
   * Add a `GET /todos` route to your express server that will return the list of todos as a JSON response. 
   * Add code to your `index.js` file that will fetch the list of todos and render them in the browser. For each todo, you should use the existing `renderTodo()` method to render it to the DOM.  
-    * You'll notice that you get a cors error if you open up your console. To fix this error, require the cors package we installed earlier and have your express app use it as middleware (e.g. `app.use(cors());`). After adding it, you should no longer get a cors error.
+    * You'll notice that you get a cors error if you open up your console. To fix this error, `require('cors')` package we installed earlier and have your express app use it as middleware (e.g. `app.use(cors());`). After adding it, you should no longer get a cors error.
 
 ### Create a ToDo
   * Add a `POST /todos` route that will take in a description in the request body and use it to create and add a todo to the todos list. You'll notice that there is a helper function in the todos file that is provided to easily create a todo for you. After creating the route, add a method in your front-end code that will `POST` a todo to your backend with the form is submitted. Remember that your `fetch` call will need the correct headers (i.e. `'Content-Type': 'application/json'`) and that you will need to specify the correct method as well.
