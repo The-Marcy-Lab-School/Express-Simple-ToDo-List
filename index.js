@@ -20,6 +20,8 @@ function renderTodo(todo) {
   const description = document.createElement("p");
   // add the description to the paragraph element
   description.innerText = todo.description;
+  // add the todo's id to the description so we can reference it later
+  description.id = `description-${todo.id}`;
 
   // create a Marc complete button
   const markCompleteBtn = document.createElement("button");
