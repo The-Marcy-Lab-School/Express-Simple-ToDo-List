@@ -53,7 +53,7 @@ function createToDo(event){
   event.preventDefault()
 
   console.log(`
-    TODO: Implement the create todo functionality and remove this log
+    TODO: Implement the create todo functionality and remove this log. You should use the pre-built renderTodo() funtion!
   `);
 }
 
