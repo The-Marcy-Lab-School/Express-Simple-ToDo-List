@@ -3,7 +3,7 @@
 ## Directions
 You are to make a simple To-Do List. You will build out an HTML/JS front-end which makes fetch calls to an Express API back-end that you build as well. This is a full CRUD application. You will code your back-end in `app.js` and your front-end in `index.js`. **There is lots of starter code to help you.** However, it's up to you to understand it and use it to your advantange.  
 
-Your project should fullfill the following UX requirements. Using your front-end, users should be able to:
+The frontend of your project should fullfill the following UX requirements by allowing users to be able to:
   * View a list of tasks
   * Create a task
   * Mark a task complete
