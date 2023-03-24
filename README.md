@@ -49,13 +49,3 @@ The frontend of your project should fullfill the following UX requirements by al
 
 ### Clean Up
   * After your code is complete, run the eslint command to check for errors. You should add this command to the scripts section of your package.json. `"eslint": "eslint . --fix"`
-
-## Example Project
-It always helps you see a live demo of what it is you're supposed to be bulding out. The following links might need to be **refreshed a couple of times** to work properly. 
-
-* [HTML/JS Front-end](https://fervent-poitras-2114af.netlify.app/) hosted on Netlify
-* [Express Back-end](https://ann-express-todolist-1-backend.herokuapp.com/todos) hosted on Heroku
-
-### Additional Resources
-* [Review of the different fetch methods](https://medium.com/@9cv9official/what-are-get-post-put-patch-delete-a-walkthrough-with-javascripts-fetch-api-17be31755d28)
-* [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
